@@ -3170,30 +3170,6 @@ body{
 	color: var(--Main-Colour)!important;
 }
 
-.avatar-profile .status {
-    width: 600%;
-    height: 10%;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border: none;
-	border-radius: 5px;
-    top: -31%;
-    left: -100%;
-	animation: pulse 3s infinite linear;
-	opacity: 0.5!important;
-}
-
-.userPopout-4pfA0d .status-3jUEha{
-	width: 150%!important;
-    height: 5px!important;
-	top: -7%;
-	left:-20%;
-	border-radius: 0px!important;
-	border-color:transparent!important;
-	animation: pulse 3s infinite linear;
-	opacity: 0.5!important;
-}
-
 #user-profile-modal .guilds .section .connected-accounts .connected-account,#user-profile-modal .guilds .section+.section{
 	border:none!important;
 }
@@ -3381,16 +3357,6 @@ body{
   background-color: rgba(255, 255, 255, 0) !important;
 }
 
-#user-profile-modal .guilds .guild .status,.listAvatarStatus-1Egz5B{
-    width: 10%!important;
-    height: 100%!important;
-    top: -6%!important;
-    left: -22%!important;
-    border-radius: 0px!important;
-    border-color: transparent!important;
-    animation: pulse 3s infinite linear!important;
-    opacity: 6!important;
-}
 
 #user-profile-modal .guilds .guild:hover,#user-profile-modal .guilds .section .connected-accounts .connected-account,#user-profile-modal .guilds .section+.section,#user-profile-modal .avatarWrapper-2Gfmp1, #user-profile-modal .scroller,#user-profile-modal .avatar-wrapper,#user-profile-modal .empty,#user-profile-modal .tab-bar-container,#user-profile-modal .header:after,.userPopout-4pfA0d .body-3rkFrF, .headerNormal-1cioxU, .footer-2J5zqP,.quick-message,#user-profile-modal .header,.userPopout-4pfA0d,.topSectionNormal-2LlRG1,.theme-dark .body-3_tdh6{
 	background:transparent!important;
@@ -3426,32 +3392,6 @@ body{
     border: 1px solid #dbdde1;
     border-radius: 3px;
     color: var(--Popout-Main-Colour);
-}
-
-.avatar-profile .status, .statusProfile-29OBzn {
-    width: 766%!important;
-    height: 10%!important;
-    -webkit-box-sizing: border-box!important;
-    box-sizing: border-box!important;
-    border: none!important;
-    border-radius: 0px!important;
-    top: -20%!important;
-    animation: pulse 3s infinite linear!important;
-    opacity: 0.5!important;
-    left: -100%!Important;
-}
-
-.status-3jUEha:not(.statusProfile-29OBzn) {
-    width: 1455%!important;
-    height: 10%!important;
-    -webkit-box-sizing: border-box!important;
-    box-sizing: border-box!important;
-    border: none!important;
-	border-radius: 0px!important;
-    top: -12%!important;
-    left: -55%!important;
-	animation: pulse 3s infinite linear!important;
-	opacity: 0.5!important;
 }
 
 .theme-dark .headerNormal-3Vn9nT {
