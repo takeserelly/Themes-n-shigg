@@ -3120,7 +3120,7 @@ body{
 	animation: TextScroll 60s infinite linear;
 }
 
-.theme-dark .headerBar-cxbhPD,.theme-dark [class*='activityFeed-'],.theme-dark .body-2WmNzl,.theme-dark .activity-3tgXuD {
+.theme-dark .headerBar-cxbhPD,.theme-dark [class*='activityFeed-'] {
   background: transparent;
   color: var(--Main-Colour);
   border-color: var(--M-Colour);
@@ -3330,7 +3330,7 @@ body{
     mask: none!important;
 }
 
-.avatar-1BXaQj.avatar-1jmnc-.popout-UKvsJt,.connectedAccount-3mKaTA,.activity-AFBUEw,.headerPlaying-2eYqm9,.topSectionPlaying-3jAH9b,.headerStreaming-3F-wjT,.topSectionStreaming-3rIBIm {
+.avatar-1BXaQj.avatar-1jmnc-.popout-UKvsJt,.connectedAccount-3mKaTA ,.headerPlaying-2eYqm9,.topSectionPlaying-3jAH9b,.headerStreaming-3F-wjT,.topSectionStreaming-3rIBIm {
 	border:none!important;
   background-color: rgba(255, 255, 255, 0) !important;
 }
