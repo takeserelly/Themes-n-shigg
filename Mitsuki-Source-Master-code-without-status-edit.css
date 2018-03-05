@@ -446,10 +446,6 @@ span.ping {
   color: var(--Main-Colour) !important;
 }
 
-.friends-icon {
-  background-color: var(--Main-Colour);
-}
-
 .friends-online {
   color: #ffffff;
 }
@@ -2469,12 +2465,6 @@ div.flex-spacer.flex-vertical form {
 
 ul.bda-slist > li[data-reactid^=".3.$scroller.$pcolumn.1:$plugin-list.$"] > div:nth-child(2):not(.bad-right) {
   color: white !important;
-}
-
-.guilds-wrapper .guilds .friends-icon {
-  content:"";
-  background-color: var(--M-Colour);
-  background-image:none!important;
 }
 
 .guild-inner[style*="background-color: rgb"]{
