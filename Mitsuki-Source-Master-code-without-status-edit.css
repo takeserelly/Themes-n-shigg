@@ -558,10 +558,6 @@ span.ping {
   margin-left: 1.6vw;
 }
 
-.tab-bar-item:hover {
-  background-color: transparent;
-}
-
 .new-messages-bar button {
   background-color: transparent !important;
   color: var(--Main-Colour) !important;
