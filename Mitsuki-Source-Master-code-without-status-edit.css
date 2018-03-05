@@ -1069,11 +1069,6 @@ div.new-messages-bar button {
   background-color: #232323 !important;
 }
 
-.tab-bar.SIDE .tab-bar-item {
-  background: transparent !important;
-  color: rgba(255, 255, 255, 0.5) !important;
-}
-
 .tab-bar.SIDE .tab-bar-item:hover {
   color: rgba(255, 255, 255, 0.9) !important;
 }
