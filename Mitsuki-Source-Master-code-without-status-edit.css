@@ -739,10 +739,6 @@ a.remove-button {
   color: var(--Main-Colour) !important;
 }
 
-.tab-bar-item.selected {
-  padding-left: 15px !important;
-}
-
 .checkbox-inner span {
   background-color: var(--Main-Colour) !important;
   border-color: var(--Background-Colour) !important;
