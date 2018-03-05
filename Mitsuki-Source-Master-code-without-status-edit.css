@@ -1536,7 +1536,6 @@ spinner-pulsing-ellipsis .spinner-item {
 }
 
 .flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO {
-  background: transparent;
   border-radius: 15px;
   opacity: 7;
 }
@@ -3338,12 +3337,6 @@ body{
 .avatar-1BXaQj.avatar-1jmnc-.popout-UKvsJt,.connectedAccount-3mKaTA,.activity-AFBUEw,.headerPlaying-2eYqm9,.topSectionPlaying-3jAH9b,.headerStreaming-3F-wjT,.topSectionStreaming-3rIBIm {
 	border:none!important;
   background-color: rgba(255, 255, 255, 0) !important;
-}
-
-
-#user-profile-modal .guilds .guild:hover,#user-profile-modal .guilds .section .connected-accounts .connected-account,#user-profile-modal .guilds .section+.section,#user-profile-modal .avatarWrapper-2Gfmp1, #user-profile-modal .scroller,#user-profile-modal .avatar-wrapper,#user-profile-modal .empty,#user-profile-modal .tab-bar-container,#user-profile-modal .header:after,.userPopout-4pfA0d .body-3rkFrF, .headerNormal-1cioxU, .footer-2J5zqP,.quick-message,#user-profile-modal .header,.userPopout-4pfA0d,.topSectionNormal-2LlRG1,.theme-dark .body-3_tdh6{
-	background:transparent!important;
-	border: none!important;
 }
 
 .scroller-wrap.fade .scroller:hover:hover::-webkit-scrollbar-thumb, .scroller-wrap.fade .scroller:hover:hover::-webkit-scrollbar-track-piece, .scroller-wrap.fade:hover:hover::-webkit-scrollbar-thumb, .scroller-wrap.fade:hover:hover::-webkit-scrollbar-track-piece{
