@@ -274,9 +274,9 @@ form.deprecated.auth-form footer {
 }
 
 .badge {
-  background-color: var(--Main-Colour);
-  border: 1px solid var(--Background-Colour);
-  color: var(--Background-Colour);
+  background-color: red;
+  border: 1px solid red;
+  color: white;
 }
 
 .channel.channel-text.unread a {
