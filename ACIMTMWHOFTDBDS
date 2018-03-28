@@ -1,0 +1,307 @@
+/* All Customizations I made to Mistuki, with help of the theme devs and stuff in the BD server */
+
+/* Nitro thing */
+
+.avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,.guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after,.message-group .avatar-large[style*='/a_'] + .comment .user-name::after
+   {content:"NITRO";
+    margin-left:10px;
+    font-family:"Whitney";
+    font-size:10px;
+    background-color:rgba(45,45,45,0.7);
+    border-radius:3px;
+    color: aliceblue;
+    padding:2px;
+    font-weight: bold;
+    position: relative;
+    animation: rainbow 7s linear infinite;
+}
+
+/* Chat Avatars Relook */
+
+.message-group .avatar-large {
+   width:60px;
+   height:60px;
+}
+
+/* Plugin Settings Button Recolor */
+
+.bda-footer .bda-settings-button {
+    border:1px solid white !important;
+    background-color:white !important;
+    color:black !important;}
+
+.bda-footer .bda-settings-button:hover {
+    border:1px solid darkblue !important;
+    background-color:rgba(206, 226, 255,0.8) !important;}
+    
+/* Plugins, Themes and Core description background changes */
+
+.bda-description-wrap , .bda-header , .bda-footer , .ui-form-text.style-description.margin-top-4 {
+    background-color:rgba(20,20,20,0.7);
+    border-radius:5px;
+    padding:5px 7px;} 
+
+/* Fix for the My Account :after */
+
+.userSettingsSecurity-1hjwAn:after {margin-top:20px;}
+
+/* Circle Profile Popout */
+
+.maskProfile-MeBve8.mask-2vyqAW {border-radius:50% !important;}
+
+/* Emote picker length */
+
+#bda-qem-twitch-container, 
+#bda-qem-favourite-container,
+.bda-dark .emoji-picker, 
+.bda-dark .emojiPicker-3g68GS {
+    height: 80vh;
+}
+.emojiPicker-3g68GS .scroller-2dsok0 {
+    height: auto;
+}
+
+/* Clearer Emojis */
+
+.message-group .emoji:not(img[src|="/assets/0d6fbd1bceb7a00e24106fcf331cd9f4.svg"]) {
+    filter: drop-shadow(0px 0px 1px #FFF) !important;
+}
+
+/* Nicer Custom CSS editor */
+
+#bd-customcss-editor {background-color:rgba(39, 40, 34,0.5);}
+
+/* Upload Modal Mods */
+
+.label-Cfxxz9 {
+    border-radius:5px;
+    background-color:rgba(255,255,255,0.5);
+    padding:3px;
+}
+
+.uploadModal-2KN6Mm {padding:5px 20px;}
+
+.image-sUU6Oh {
+    width:210px !important;
+    border-radius:5px;}
+
+/* Text Highlight for dark Roles */
+
+.markup {text-shadow:
+    1px -1px 0 darkgrey;}
+
+/* Username background */
+
+.theme-dark .message-group h2 strong {
+    width: 20px;
+    background-image: url(https://i.imgur.com/DMhtdie.jpg) !important; 
+	background-size: cover !important;
+    border-radius: 25px !important;
+    padding: 5px !important;
+}
+
+/* Members list background */
+
+
+.theme-dark .channel-members .member {
+    background-image: url(https://i.imgur.com/DMhtdie.jpg) !Important; 
+	background-size: cover !important;
+    border-radius: 20px;
+    margin-left:10px !important;
+    margin-top:3px !important;
+}
+
+/* Popout Customisation */
+
+.userPopout-11hFKo {
+    background-image: url(https://i.imgur.com/Nx7xv78.jpg);
+    background-size:100% 100%;
+}
+
+.headerText-3ptbeX {
+    background-color:rgba(3,3,3,0.5);
+    border-radius:5px;
+    padding:5px;}
+
+.creationDate {font-weight:bold;}
+
+.body-3ljq11 , .activityUserPopout-1nmgaw  {
+    background-color:rgba(3,3,3,0.7) !important;
+    border-radius:5px !important;}
+
+/* Personal Icon display text */
+
+[style*="avatars/150687000410718209"].avatar-large+.comment .user-tag::before {
+  content: url(https://i.imgur.com/Ix5ulfT.png);
+  color: rgba(0,255,0,.3);
+  font-size: 13px;
+  z-index: 1;
+  position: relative;
+  top: 3px;
+  padding-right: 4px;
+  border-radius: 2px;
+  transform: translate(0,1px);
+  cursor: pointer;
+  transition: 100ms ease;
+  pointer-events: initial;
+  animation: rainbow 3s infinite linear;
+}
+
+[style*="avatars/150687000410718209"].avatar-large+.comment .user-tag::after {
+  content: "Hey whats up, Im just a memer in this server. If you need help with css or BD, mention me. I might have a solution!";
+  white-space: pre;
+  background-color: var(--Background-Colour) !important;
+  box-shadow: 1px 1px 15px rgba(0,216,86, 0.9)!important;
+  padding: 6px 10px;
+  border-radius: 3px;
+  font-size: 13px;
+  z-index: 3000000;
+  display: block;
+  position: absolute;
+  right: 0;
+  pointer-events: none;
+  transition: 80ms ease;
+  color: var(--Main-Colour);
+  width: 670px;
+  left: 0;
+  transform: translate(17px,-7px);
+  opacity: 0;
+  top: 0;
+  animation: rainbow 3s infinite linear;
+  text-transform: capitalize;
+}
+
+[style*="avatars/150687000410718209"].avatar-large+.comment .user-tag:hover::after {
+  opacity: 1;
+  transition: 180ms ease-in-out 100ms;
+  animation: boop .5s 1 linear;
+}
+[style*="avatars/150687000410718209"].avatar-large+.comment .user-tag {
+  position: relative;
+  cursor: pointer;
+}
+
+
+/* Roles Scroller */
+
+.rolesList-2RhjNd {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2px;
+    max-height: 160px;
+    overflow-y: auto;
+}
+
+.rolesList-2RhjNd::-webkit-scrollbar-thumb,
+.rolesList-2RhjNd::-webkit-scrollbar-track {
+    background-clip: padding-box;
+    border-radius: 7.5px;
+    border-style: solid;
+    border-width: 3px;
+    visibility: hidden;
+}
+
+.rolesList-2RhjNd:hover::-webkit-scrollbar-thumb,
+.rolesList-2RhjNd:hover::-webkit-scrollbar-track {
+    visibility: visible;
+}
+
+.rolesList-2RhjNd::-webkit-scrollbar-track {
+    border-width: initial;
+    background-color: transparent;
+    border: 2px solid transparent;
+}
+
+.rolesList-2RhjNd::-webkit-scrollbar-thumb {
+    border: 2px solid transparent;
+    border-radius: 4px;
+    cursor: move;
+    background-color: rgba(32,34,37,.6);
+}
+
+.rolesList-2RhjNd::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+}
+
+/* Friends button above servers fix and mods*/
+
+.message .timestamp {display:none;}
+
+.guilds-wrapper .guilds > .active:first-of-type , .guilds-wrapper .guilds > .guild:first-of-type:hover {border-radius:40% !important;}
+
+.guilds-wrapper .guilds > .guild:first-of-type:not(.guilds-add) {
+  background-size: contain;
+  background-image: url(https://78.media.tumblr.com/e493c7699b12e8ab7affc0f3ab63c595/tumblr_opcn0iK9eE1w9bt1fo1_400.jpg) !important;
+  border: 1px solid var(--Main-Colour)  !important;
+  border-right: 1px solid var(--Main-Colour);
+  border-bottom: 1px solid var(--Main-Colour);
+  border-radius: 10%; 
+  transition: border-radius 0.5s ease;}
+
+.guild, .guild * {box-sizing:border-box;}
+
+.friends-icon {display:none;} 
+
+/* BFG image Major Popout */
+
+#user-profile-modal,.userPopout-4pfA0d,.inner-1_1f7b{
+	background:url(https://i.pinimg.com/736x/dc/63/34/dc6334e7b07277a6b7c89e14d65db645--just-be-luka.jpg)50% 50%/cover!important;
+	text-shadow: 0 0 6px var(--Popout-Text-Shadow-Colour), 0 0 6px var(--Popout-Text-Shadow-Colour), 0 0 5px var(--Popout-Text-Shadow-Colour), 0 0 4px var(--Popout-Text-Shadow-Colour)!important;
+}
+
+/* Darker BG for major popout items */
+
+.userInfoSectionHeader-pmdPGs , .theme-dark .tabBarItem-1Lg555 , .profileBadge-kI8nxa , .nameTag-2n-N0D, .note-2AtC_s .note-39NEdV , .note-2AtC_s , .connectedAccount-3mKaTA  , .theme-dark .headerFill-TTyrtz .activityProfile-2pymp0{
+    background-color:rgba(3,3,3,0.7) !important;
+    border-radius:5px;
+    padding:5px !important;
+}
+
+/* New Messages Divider Edit */
+
+.divider-red > div , .divider-red > span {font-weight:bold;border:5px solid darkblue; padding:5px;}
+
+/* https://imgur.com/a/DXvi7 */
+
+.theme-dark .tabBarItem-1Lg555 {height:30px !important;margin-top:15px;}
+
+/* Top and bottom Major popout transparency */
+
+.body-3_tdh6 , .topSectionNormal-2LlRG1 {background:transparent !important;}
+
+/* Notes title in Popout size fix */
+
+.userInfoSectionHeader-pmdPGs {width:33px;}
+
+/* Name tag in Major popout adapt BG */
+    
+.nameTag-2n-N0D {display: inline;}
+
+/* Quicksave prettier */
+
+.downloadLink-wANcd8:not(span) {
+    background-color:rgb(3,3,3);
+    border-radius:5px;
+    padding:5px;
+    color:white !important;
+}
+
+.inner-1_1f7b > div > div:nth-child(2):not(.body-3_tdh6):not(.scrollerWrap-2uBjct.content-1Cut5s.scrollerThemed-19vinI.themeGhostHairline-2H8SiW) {margin-left:35%;}
+
+/* hover effect on msgs */
+
+.message-group {border-radius:15px !important;}
+.message-group:hover {
+    border:1px solid transparent;
+    border-right-color:darkblue;
+    border-bottom-color:darkblue!important;
+}
+
+/* Badge color */
+
+.badge {
+  background-color: red;
+  border: 1px solid white;
+  color: white;
+}
