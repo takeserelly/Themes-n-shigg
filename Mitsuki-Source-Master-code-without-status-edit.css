@@ -273,12 +273,6 @@ form.deprecated.auth-form footer {
   line-height: 22px;
 }
 
-.badge {
-  background-color: red;
-  border: 1px solid red;
-  color: white;
-}
-
 .channel.channel-text.unread a {
   background: transparent !important;
 }
