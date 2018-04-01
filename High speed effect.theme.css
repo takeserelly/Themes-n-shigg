@@ -1,0 +1,5 @@
+//META{"name":"High Speed Effect Mini Theme","description":"Effects for Simili speed on text","author":"Takes a Lickin","version":"0.8"}*//{}
+
+.markup {
+    text-shadow: -1px 1px 0, 1px -1px 0;
+    transform: rotate(0.7deg);}
