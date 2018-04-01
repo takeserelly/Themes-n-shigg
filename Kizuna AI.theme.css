@@ -1,0 +1,74 @@
+//META{"name":"Kizuna AI Theme","description":"The waifu AI of your dreams","author":"Takes a Lickin","version":"0.8"}*//{}
+
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+
+.app {
+	background-image: url("https://get.wallhere.com/photo/1920x1080-px-3D-anime-girls-Kizuna-Ai-1180574.jpg");
+	background-size: cover !important;
+	background-position: center !important;}
+
+.theme-dark .friends-table, .theme-dark .messages-wrapper , .theme-dark .title-qAcLxz , .theme-dark .chat , .theme-dark .chat form , .theme-dark .chat>.content , .container-2OU7Cz ,
+.theme-dark .layer, .theme-dark .layers ,
+.guilds-wrapper ,
+.theme-dark .chat form .typing , .channels-3g2vYe , .layers-20RVFW, .layer-kosS71, .container-2OU7Cz, .typing-3eiiL_ , .container-RYiLUQ , .theme-dark .channel-members , .theme-dark #friends , 
+.theme-dark .ui-standard-sidebar-view , .theme-dark .ui-standard-sidebar-view .sidebar-region , .theme-dark .ui-standard-sidebar-view .content-region , 
+.theme-dark .headerBar-cxbhPD , .header-3budic , .body-3ljq11
+{
+    background-color: rgba(0,0,0,0) !important;
+    background: transparent !important;
+}
+ 
+.layers-20RVFW {background: rgba(0,0,0, 0.3) !important;}
+
+.theme-dark .chat form , .theme-dark .title-qAcLxz {box-shadow: none;} 
+
+* {font-family: 'Maven Pro' !important;}
+
+.memberOnline-1xn3V8 , .old-h2{
+    background-image:url(https://wallup.net/wp-content/uploads/2017/10/25/495529-Kizuna_Ai-anime_girls-minimalism-Flatdesign-simple_background-748x468.jpg);
+    background-size: cover;}
+
+.old-h2 , .complete-timestamp {
+    color: black !important;
+    border-radius: 5px;
+    padding:5px;
+    display: inline;}
+
+.avatar-large {
+    border-radius: 3px;
+    border: 5px groove pink;}
+
+.username-wrapper strong.user-name {margin-left: 4px;}
+
+.name-2SL4ev {color: black;}
+
+.contentUnreadText-3oxASB {background-color: rgba(255, 0, 230, 0.3) !important;}
+
+.contentMutedText-Lcl-Wj {background-color: rgba(255, 239, 253, 0.3);}
+
+.contentDefaultText-2elG3R {background-color: rgba(221, 128, 212, 0.3);}
+
+.contentSelectedText-3j5CXt , .content-2mSKOj:hover {background-color: rgba(193, 106, 185, 0.3);}
+ 
+.unread-23Kvxk {display: none;}
+
+.guild.selected::before {background-color: red !important;}
+
+.guild.unread::before {background-color: rgba(255, 0, 230, 0.3) !important;}
+
+.guilds-wrapper .guilds > .active:first-of-type , .guilds-wrapper .guilds > .guild:first-of-type:hover {border-radius:40% !important;}
+
+.guilds-wrapper .guilds > .guild:first-of-type:not(.guilds-add) {
+  background-size: contain;
+  background-image: url(https://i.imgur.com/dHq8M5s.png) !important;
+  border: 1px solid var(--Main-Colour)  !important;
+  border-right: 1px solid var(--Main-Colour);
+  border-bottom: 1px solid var(--Main-Colour);
+  border-radius: 10%; 
+  background-position: center;
+  transition: border-radius 0.5s ease;}
+
+.guild, .guild * {box-sizing:border-box;}
+
+.friends-icon {display:none;} 
+
