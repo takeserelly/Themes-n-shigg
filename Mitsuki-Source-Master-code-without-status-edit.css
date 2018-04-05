@@ -785,12 +785,6 @@ div p a {
   background-color: rgba(255, 255, 255, 0) !important;
 }
 
-.mask-2vyqAW {
-    border-radius: 0;
-    -webkit-mask: none;
-    mask: none;
-}
-
 .reset-voice-settings {
   color: var(--Main-Colour) !important;
 }
@@ -1533,11 +1527,9 @@ spinner-pulsing-ellipsis .spinner-item {
 .connectedAccountOpenIcon-2J8hDS {
   content:"";
   -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><g fill="none" fill-rule="evenodd" opacity=".60000002"><path d="M0 0h18v18H0z"/><path fill="#99AAB5" d="M10.5 2.25v1.5h2.6925L5.82 11.1225 6.8775 12.18 14.25 4.8075V7.5h1.5V2.25H10.5zm3.75 12H3.75V3.75H9v-1.5H3.75c-.8325 0-1.5.675-1.5 1.5v10.5c0 .8284271.67157287 1.5 1.5 1.5h10.5c.8284271 0 1.5-.6715729 1.5-1.5V9h-1.5v5.25z"/></g></svg>');
-  background-color: var(--Main-Colour)!important;
   -webkit-mask-size: 100%!important;
   -webkit-mask-position: 100%!important;
   -webkit-mask-repeat: no-repeat!important;
-  background-image:none!important;
 }
 
 /*Thanks to Nomuit#7411 For Helping me find this */
@@ -3308,12 +3300,6 @@ body{
 	color:var(--Popout-Main-Colour)!important;
 }
 
-.mask-2vyqAW {
-    border-radius: 0!important;
-    -webkit-mask: none!important;
-    mask: none!important;
-}
-
 .avatar-1BXaQj.avatar-1jmnc-.popout-UKvsJt,.connectedAccount-3mKaTA ,.headerPlaying-2eYqm9,.topSectionPlaying-3jAH9b,.headerStreaming-3F-wjT,.topSectionStreaming-3rIBIm {
 	border:none!important;
   background-color: rgba(255, 255, 255, 0) !important;
@@ -3818,22 +3804,10 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
 	color:var(--Main-Colour)!important;
 }
 
-.bd-pfbtn:hover, .bda-slist .bda-footer button:hover {
-    color: var(--Main-Colour);
-    background-color: Var(--Background-Colour);
-    border: 1px Solid var(--Main-Colour);
-}
-
-.bd-pfbtn:not(:hover), .bda-slist .bda-footer button:not(:hover) {
-    color: var(--M-Colour);
-    background-color: Var(--Background-Colour-Colour);
-    border: 1px Solid var(--M-Colour);
-}
-
 .menu-3BZuDT, .item-rK1j5B{
 	color:var(--M-Colour);
 	background:var(--Background-Colour);
-    padding: 0px 0px;
+        padding: 0px 0px;
 }
 
 .item-rK1j5B:hover {
