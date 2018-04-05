@@ -4718,6 +4718,7 @@ display:none;
 	background-color: var(--Background-Colour)!important;
 }
 
+
 .serverfolders-modal .form-tablinks.active{
 	border: 1px solid var(--Main-Colour)!important;
 	background-color: var(--Background-Colour)!important;
@@ -4826,3 +4827,65 @@ display:none;
 .maskProfile-MeBve8 {-webkit-mask:none !important;}
 
 .theme-dark .members-1bid1J {background:rgba(3,3,3,0.3) !important;}
+
+/* User Status 2 */
+/* DND */
+.statusDnd-35xAXU:not(.statusProfile-29OBzn) {
+    width: 115%!important;
+    height: 115%!important;
+    box-sizing: border-box;
+    top: -6.3%!important;
+    left: -7.3%!important;
+    border: 2.5px solid #f04747!important;
+    border-radius: 5px !important;
+	background:none;
+	opacity: 1 !important;
+    animation: pulse 3s linear infinite !important;
+}
+/* ONLINE */
+.statusOnline-1Mp2_H:not(.statusProfile-29OBzn) {
+    width: 115%!important;
+    height: 115%!important;
+    box-sizing: border-box;
+    top: -6.3%!important;
+    left: -7.3%!important;
+    border: 2.5px solid #43b581!important;
+    border-radius: 5px !important;
+	background:none;
+	opacity: 1 !important;
+    animation: pulse 3s linear infinite !important;
+}
+/* AWAY */
+.statusIdle-2AQdvu:not(.statusProfile-29OBzn) {
+    width: 115%!important;
+    height: 115%!important;
+    box-sizing: border-box;
+    top: -6.3%!important;
+    left: -7.3%!important;
+    border: 2.5px solid #faa61a!important;
+    border-radius: 5px !important;
+	background:none;
+	opacity: 1 !important;
+    animation: pulse 3s linear infinite !important;
+}
+/* STREAM */
+.statusStreaming-1bZ3Hq:not(.statusProfile-29OBzn) {
+    width: 115%!important;
+    height: 115%!important;
+    box-sizing: border-box;
+    top: -6.3%!important;
+    left: -7.3%!important;
+    border: 2.5px solid #593695!important;
+    border-radius: 5px !important;
+	background:none;
+	opacity: 1 !important;
+    animation: pulse 3s linear infinite !important;
+}
+/* OFFLINE */
+.avatarOffline-YdYOwX{
+    top: -6.3%!important;
+    left: -7.3%!important;
+    border: 2.5px solid #747f8d!important;
+    border-radius: 5px !important;
+    animation: pulse 3s linear infinite !important;
+}
