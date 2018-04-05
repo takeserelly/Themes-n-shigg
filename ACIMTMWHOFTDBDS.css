@@ -240,9 +240,9 @@
 	text-shadow: 0 0 6px var(--Popout-Text-Shadow-Colour), 0 0 6px var(--Popout-Text-Shadow-Colour), 0 0 5px var(--Popout-Text-Shadow-Colour), 0 0 4px var(--Popout-Text-Shadow-Colour)!important;
 }
 
-/* Darker BG for major popout items */
+/* Darker BG for major popout items (and the instant message thing in minor popout) */
 
-.userInfoSectionHeader-pmdPGs , .theme-dark .tabBarItem-1Lg555 , .profileBadge-kI8nxa , .nameTag-2n-N0D, .note-2AtC_s .note-39NEdV , .note-2AtC_s , .connectedAccount-3mKaTA  , .theme-dark .headerFill-TTyrtz .activityProfile-2pymp0{
+.userInfoSectionHeader-pmdPGs , .theme-dark .tabBarItem-1Lg555 , .quickMessage-OCo-Q0 , .profileBadge-kI8nxa , .nameTag-2n-N0D, .note-2AtC_s .note-39NEdV , .note-2AtC_s , .connectedAccount-3mKaTA  , .theme-dark .headerFill-TTyrtz .activityProfile-2pymp0{
     background-color:rgba(3,3,3,0.7) !important;
     border-radius:5px;
     padding:5px !important;
