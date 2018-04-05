@@ -26,13 +26,13 @@
 /* Plugin Settings Button Recolor */
 
 .bda-footer .bda-settings-button {
-    border:1px solid white !important;
-    background-color:white !important;
-    color:black !important;}
+    border: 1px solid white;
+    background-color: white;
+    color: black;}
 
 .bda-footer .bda-settings-button:hover {
-    border:1px solid darkblue !important;
-    background-color:rgba(206, 226, 255,0.8) !important;}
+    border: 1px solid darkblue;
+    background-color:rgba(206, 226, 255,0.8);}
     
 /* Plugins, Themes and Core description background changes */
 
@@ -44,10 +44,6 @@
 /* Fix for the My Account :after */
 
 .userSettingsSecurity-1hjwAn:after {margin-top:20px;}
-
-/* Circle Profile Popout */
-
-.maskProfile-MeBve8.mask-2vyqAW {border-radius:50% !important;}
 
 /* Emote picker length */
 
