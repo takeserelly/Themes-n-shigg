@@ -1255,7 +1255,7 @@ div[data-bd="backdrop"] {
   background: var(--Background-Colour);
 }
 
-.theme-dark .channel-members h2 {
+.theme-dark .channel-members h2 , .theme-dark .membersGroup-3_dP5E  {
   border-bottom: 6px !important;
   background: linear-gradient(to right, transparent, var(--Background-Colour), var(--M-Colour)) !important;
 }
