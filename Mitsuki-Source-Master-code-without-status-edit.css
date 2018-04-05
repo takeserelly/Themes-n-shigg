@@ -1260,12 +1260,16 @@ div[data-bd="backdrop"] {
   background: linear-gradient(to right, transparent, var(--Background-Colour), var(--M-Colour)) !important;
 }
 
-.channel-members h2 {
-  border-radius: 3px;
-  color: var(--Main-Colour) !important;
-  margin-left: 2px;
-  padding-top: 2px;
-}
+.channel-members h2,.membersGroup-3_dP5E {
+	border-radius: 3px !important;
+	color: var(--Main-Colour) !important;
+	margin-left: 2px !important;
+	padding-top: 2px !important;
+	white-space: wrap !important;
+        font-size: 12px !important;
+        margin-top: 19px !important;
+        text-transform: capitalize !important;
+}  
 
 .title-wrap {
   box-shadow: none !important;
