@@ -1259,14 +1259,11 @@ div[data-bd="backdrop"] {
 }
 
 .channel-members h2,.membersGroup-3_dP5E {
-	border-radius: 3px !important;
 	color: var(--Main-Colour) !important;
-	margin-left: 2px !important;
+	margin-left: 2px;
 	padding-top: 2px !important;
-	white-space: wrap !important;
         font-size: 12px !important;
         margin-top: 19px !important;
-        text-transform: capitalize !important;
 }  
 
 .title-wrap {
@@ -2025,24 +2022,6 @@ div.flex-spacer.flex-vertical form {
 
 .channel-members-loading {
   display: none;
-}
-
-
-/* nitro thing */
-.avatar-large[style*="a_"] + .comment .message.first .body-3rkFrF .username-wrapper:after {
-  content: url(https://i.imgur.com/rzf0lV7.png);
-  color: lime;
-  margin-left: 5px;
-  background: transparent;
-  line-height: 16px;
-  text-transform: uppercase;
-  vertical-align: bottom;
-  border-radius: 3px;
-  margin-left: 6px;
-  padding: 1px 2px;
-  font-size: 10px;
-  font-weight: 600;
-  cursor: text;
 }
 
 .member.member-status > .avatar-small[style*="a_"] + .member-inner .member-username:after {
