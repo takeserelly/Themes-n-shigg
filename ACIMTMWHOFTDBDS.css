@@ -109,11 +109,6 @@
 
 /* Popout Customisation */
 
-.userPopout-11hFKo {
-    background-image: url(https://i.imgur.com/Nx7xv78.jpg);
-    background-size:100% 100%;
-}
-
 .headerText-3ptbeX {
     background-color:rgba(3,3,3,0.5);
     border-radius:5px;
@@ -121,8 +116,8 @@
 
 .creationDate {font-weight:bold;}
 
-.body-3ljq11 , .activityUserPopout-1nmgaw  {
-    background-color:rgba(3,3,3,0.7) !important;
+.body-3ljq11 , .activityUserPopout-1nmgaw , .footer-2wFs91  {
+    background-color:rgba(3,3,3,0.7);
     border-radius:5px !important;}
 
 /* Personal Icon display text */
