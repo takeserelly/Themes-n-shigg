@@ -2,27 +2,16 @@ Suggestion 1
 A plugin that autosets selected channels as read even if you're in another server
 Suggestion 2 
 A plugin that shows you who goes offline and online on the current select server youre in (with a blacklist of servers)
-Suggestion X 
-@Zerthox for BetterReplyer to let be able to use it in a different channel than the one youre in ,
-in case you cant send a message in the current one but you still want to reply in another channel
 Suggestion 3 
 A plugin that allows you to block someone/hide their messages only in a specific channel/server
 Suggestion X
 @Devilbro for EditUsers , a per server option that doesnt affect the user's appearance on other servers
-Suggestion 4
-A better search plugin, with improvements to Ctrl + F, such as searching within codeblocks and ``text``, adding features and buttons
 Suggestion 5
 A plugin that adds a button (or a key to set) which toggles
 the member list on the side of the server to only show people you have servers/friends in common
 Suggestion 6
-A plugin that auto downloads photos from a discord server to a selected folder (by Godzilla#5554 )
+A plugin that auto downloads photos from a specific channel in a server to a selected folder (by Godzilla#5554 )
 Suggestion 7
 A plugin that brings back a similar version of the @someone mention from April Fools (by 🐾~PumpkinSpice~🐾#0001 )
 Suggestion 8
-A plugin that auto-rejoins a channel that you got moved from (by Onik#0736 )
-Suggestion 9
-A plugin for saving the user volume you set on someone (also by Onik)
-Suggestion 10
-A plugin that does display:none; on selected messages and saves it as in ID in some config file
-Suggestion 11
-To come, thanks for reading
+A plugin that turns every message from selected channels into mentions, pings
